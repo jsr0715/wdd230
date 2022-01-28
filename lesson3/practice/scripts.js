@@ -11,3 +11,13 @@ button.addEventListener("click",show);
 //button.addEventListener("click",()
 //=> {button.classList.add("newstyle")});
 
+//Hamburger Menu
+const hamburgerBtn = document.querySelector(".ham");
+const navigation = document.querySelector(".navigation")
+hamburgerBtn.addEventListener("click",()=> {navigation.classList.toggle("responsive")},false);
+
+
+let w_name = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+let m_name =["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+
