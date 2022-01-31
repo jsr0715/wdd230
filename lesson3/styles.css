@@ -109,6 +109,7 @@ section a {
 footer {
     padding-top: 30px;
 }
+
 @media screen and (max-width: 1000px) { 
     nav a {
         font-size: 1.1em;
@@ -130,3 +131,4 @@ footer {
         margin-right: 2em;
     }
 }
+

@@ -1,0 +1,33 @@
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+    .menu { 
+     display:none;
+     position: absolute;
+     background-color:#738290;
+     right: 0;
+     left: 0;
+     text-align: center;
+     padding: 16px 0;
+    }
+    .menu li:hover {
+     display: inline-block;
+     background-color:#738290;
+     transition: 0.3s ease;
+    }
+    .menu li + li {
+     margin-top: 12px;
+    }
+    input[type=checkbox]:checked ~ .menu{
+     display: block;
+    }
+    .hamburger {
+     display: block;
+    }
+    .navbar__toggleBtn {
+     display: block;
+ }
+ .navbar__menu.active,
+ .navbar__sns.active {
+    display: flex;
+ }
+}
