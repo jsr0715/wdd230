@@ -105,6 +105,7 @@ section.contact-info ul {
 }
 section.contact-info li {
     padding-top: 3px;
+    list-style-type: none;
 }
 section.contact-info li i {
     transition: transform 0.5s, color 0.3s;
