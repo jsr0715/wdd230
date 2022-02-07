@@ -75,8 +75,51 @@ body{
     font-size: 20px;
     color: whitesmoke;
 }
+
+#contactText{
+    display: flex;
+    flex-direction: column;
+}
+/*#img_footer{
+    display:flex;
+}*/
+
+section.contact-info {
+    position: relative;
+    left: -1rem;
+    width: 100%;
+    padding: 1rem;
+    display: grid;
+    background-color: var(--default-dark);
+ 
+    box-shadow: 0 0 10px var(--default-dark);
+}
+
+section.contact-info h3 {
+    margin-top:0;
+    color: var(--default-light);
+    
+    
+}
+section.contact-info ul {
+    margin-bottom: 0;
+}
+section.contact-info li {
+    padding-top: 3px;
+}
+section.contact-info li i {
+    transition: transform 0.5s, color 0.3s;
+}
+section.contact-info li:hover i {
+    color: var(--main-color);
+    transform: scale(1.5);
+}
+
+
+
 footer{
     text-align: center;
+    position: relative;
     background-color:#c7d7e5;
     padding: 10px;
     font-size: 18px;

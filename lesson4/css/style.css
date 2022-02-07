@@ -7,11 +7,7 @@
     border-radius:50%;
     
   }
-  ul.social li{
-      display:inline-block;
   
-      
-  }
   .social{
       display:flex;
       align-items: center;
