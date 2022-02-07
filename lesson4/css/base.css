@@ -1,33 +1,83 @@
-/* APPLYING MEDIA QUERIES */
-@media (max-width: 768px) {
-    .menu { 
-     display:none;
-     position: absolute;
-     background-color:#738290;
-     right: 0;
-     left: 0;
-     text-align: center;
-     padding: 16px 0;
-    }
-    .menu li:hover {
-     display: inline-block;
-     background-color:#738290;
-     transition: 0.3s ease;
-    }
-    .menu li + li {
-     margin-top: 12px;
-    }
-    input[type=checkbox]:checked ~ .menu{
-     display: block;
-    }
-    .hamburger {
-     display: block;
-    }
-    .navbar__toggleBtn {
-     display: block;
- }
- .navbar__menu.active,
- .navbar__sns.active {
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Fira+Sans&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 150px 150px 0;
+    background-color:seashell;
+}
+.container{
+    max-width: 100%;
+    background-color:seashell;
+    /*border: 1px solid black;*/
+}
+
+.boxes{
+    background-color: #E4F0D0;
+}
+.header {
+    display: grid;
+    background-color: #c7d7e5;
+    height: 140px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+    grid-template-columns: 50px 100px 100px auto 50px 150px;
+    grid-template-rows: 80px 80px;
+}
+
+
+
+
+.navegator {
+    grid-row: 2/3;
+    grid-column: 3/6;
+    height: 60px;
+    display: flexbox;
+}
+.title {
+    grid-column: 4/5;
+    text-align: center;
+    align-items: center;
+    display:center;
+    justify-content: center;
+}
+.nav-menu{
+    background-color:#A1B5D8;
     display: flex;
- }
+    list-style: none;
+    font-size: 18px;
+    line-height: 50px;
+   
+    justify-content: space-evenly;
+    padding: 0px 5px;
+}
+.nav-menu a{
+    padding: 10px 5px;
+}
+.nav-menu a:hover {
+    color: white;
+    background-color: #a1b5d8;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+.nav-menu a:link {
+    color: rgb(44, 42, 52);
+}
+
+.date{
+    font-size: 20px;
+    color: whitesmoke;
+}
+footer{
+    text-align: center;
+    background-color:#c7d7e5;
+    padding: 10px;
+    font-size: 18px;
 }
