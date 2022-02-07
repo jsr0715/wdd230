@@ -30,12 +30,7 @@ body{
     grid-template-columns: 50px 100px 100px auto 50px 150px;
     grid-template-rows: 80px 80px;
 }
-.logo{
-    width: 150px;
-    grid-column: 3/4; 
-    border-radius: 10em;
-    height: 75px;
-}
+
 
 
 

@@ -1,10 +1,18 @@
 @media screen and (min-width: 1020px) {
+    .logo{
+        width: 150px;
+        grid-column: 3/4; 
+        border-radius: 10em;
+        height: 75px;
+    }
+    
     .ham{
         display: none;
     }
     .title{
         font-size: 24px;
         display:center;
+    
     }
     .nav-menu{
         background-color: #A1B5D8;
