@@ -47,6 +47,9 @@ body{
     display:center;
     justify-content: center;
 }
+.social{
+    list-style:none;
+}
 .nav-menu{
     background-color:#A1B5D8;
     display: flex;
