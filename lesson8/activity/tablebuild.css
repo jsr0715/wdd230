@@ -20,24 +20,24 @@ th, td{
 caption {
     padding: 10px;
     font-size: 3.5rem;
-    background-color: rgb(169, 214, 255);
+    background-color:#6facad;
 }
 
 thead th{
-    background-color: rgb(124, 174, 189);
+    background-color: #223e40;
     color: snow;
 }
 
 tr:nth-child(odd){
-    background-color: rgb(189, 198, 199);
+    background-color: #a5c5c7;
 }
 
 tr:nth-child(even){
-    background-color: rgb(199, 215, 236);
+    background-color: #dff2f2;
 }
 
 tr:nth-child(4) td:nth-child(3){    
-    background-color: rgb(124, 174, 189);
+    background-color: #37cccc;
 }
 
 tfoot td{
