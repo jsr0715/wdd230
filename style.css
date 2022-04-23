@@ -52,7 +52,7 @@ hr{
     box-shadow: 10px 5px 5px #7d8699;
     padding: 20px;
     border-radius: 30px;
-    height: 80px;
+    height: 60px;
     color: white;
     text-align: center;
     font-weight: bold;
@@ -64,6 +64,7 @@ hr{
     padding:5px;
     display: block;
     text-align: center;
+    
     
 }
 
