@@ -1,0 +1,16 @@
+@media (min-width: 1280px) {
+
+    .main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .column h2 {
+        font-size: 1.2rem;
+    }
+
+    .column a,
+    p {
+        font-size: 1.2rem;
+    }
+}
