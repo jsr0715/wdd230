@@ -3,6 +3,7 @@ body {
     background-color: #E4F0D0;
     text-align: center;
     font-family: 'Barlow', sans-serif;
+    
 }
 #content {
     background-color: #fffcf7;
@@ -27,6 +28,7 @@ h1, h2 {
 }
 h3 {
     font-family: 'Barlow', sans-serif;
+    
 }
 ol, ul {
     text-align: left;
@@ -106,8 +108,18 @@ section a {
     color:#8F6B60;
     font-family: Basic, 
 }
-footer {
-    padding-top: 30px;
+.footer {
+    background-color: #738290;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: .9rem;
+    margin-top: 2rem;
+}
+
+.footer span {
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 1000px) { 
