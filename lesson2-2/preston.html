@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Preston, ID :: Weatherlicious</title>
+        <meta name="description" content="The town page for Preston, ID">
+        <meta name="author" content="E. Lewis Lockhart">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/small.css">
+
+        <link rel="stylesheet" href="./css/medium.css">
+        <link rel="stylesheet" href="./css/large.css">
+       
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <!-- <link rel="icon" type="image/png" sizes="16x16" href="./images/favIcon.png"> -->
+        <link rel="shortcut icon" href="./images/favicon.ico">
+       
+    </head>
+    <body>
+        <header>
+            <div id="h-logo">
+                <img class="logo" src="./images/weathericon.png" alt="Weather Logo">
+            </div>
+            <div id="h-text">
+                <h1 id="header-text">Weather-Me</h1>
+                <div id="tag-line">Where Your Eye Stops to Spy for Raindrops</div>
+            </div>
+        </header>
+        <nav>
+            <ul class="full-width navigation">
+                <li class="nav-li"><a href="#" onclick="toggleMenu()">
+                    <span class="button">&#9776; MENU</span></a></li>
+                <li class="nav-li"><a href="#">Home</a></li>
+                <li class="nav-li active"><a href="#">Preston</a></li>
+                <li class="nav-li"><a href="#">Soda Springs</a></li>
+                <li class="nav-li"><a href="#">Fish Haven</a></li>
+                <li class="nav-li"><a href="#">Storm Center</a></li>
+                <li class="nav-li"><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+        <main class="full-width">
+            <h2 class="page-title">Preston Idaho</h2>
+            <section class="inner-section"><h6>Hero w/ weather summary</h6></section>
+            <section class="inner-section"><h6>5 Day Forcast</h6></section>
+            <section class="inner-section"><h6>Article</h6></section>
+            <section class="inner-section"><h6>Contact Information</h6></section>
+        </main>
+        <footer>
+            <div class="footer">
+                <p>&copy; <span id="currentYear"></span> | Surim Jeon | South Korea |   <a target="_blank" href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+                <p id = "modified"></p>
+                <script src="script.js"></script>
+                <script src="date.js"></script>
+            </div>
+        </footer>
+    </body>
+</html>

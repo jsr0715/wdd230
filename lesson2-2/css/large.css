@@ -1,0 +1,56 @@
+@media only screen and (min-width: 1024px) {
+    
+    :root {
+        --h-text: 'Fira Sans', sans-serif;
+        --t-text: 'Barlow', sans-serif;
+        --text-color: #01161E;
+        --primary-color: #E4F0D0;
+        --secondary-color: #A4C497;
+        --accent-color1:#A1B5D8;
+        --accent-color2: #738290;
+        --accent-color3: #EEEAE8;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+        padding-top: 10px;
+        position: relative;
+        color: #183166;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    nav ul li a {
+        border-top: none;
+        width: 125px;
+        text-align: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+    
+    .navigation li {
+        display: block;
+    }
+
+    #header-text {
+        display: block;
+    }
+
+    #h-text {
+        margin: 0 auto;
+    }
+
+    #h-logo img {
+        right: 20px;
+        top: 15px;
+        left: 20px;
+    }
+}
