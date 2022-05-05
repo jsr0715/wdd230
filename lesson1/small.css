@@ -10,7 +10,7 @@ img{
 }
 .header{
     display: flex;
-    background-color: #0f2c69;
+    background-color: #a1b5d8;
     color: #ffffff;
     justify-content: center;
     padding: 1rem;
@@ -26,7 +26,7 @@ img{
 }
 
 .footer {
-    background-color: #0f2c69;
+    background-color: #a1b5d8;
     color: #ffffff;
     text-align: center;
     padding: 1rem;
