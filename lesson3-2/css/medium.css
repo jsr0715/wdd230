@@ -16,7 +16,7 @@ th {
     font-family: var(--t-text);
     font-size: 16px;
     background-color: var(--accent-color1);
-   
+    color: black;
     padding: 5px;
 }
 

@@ -356,7 +356,7 @@ th {
 #tag-line {
     font-family: var(--t-text);
     display: flex;
-    color: var(--accent-color2);
+    color: black;
     margin-top: 5px;
     margin-bottom: 12px;
 }
