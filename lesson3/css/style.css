@@ -183,9 +183,16 @@ th {
     padding: 0.5rem;
     display: block;
 }
+.weather-icon {
+    size:50px;
+    transform: scale(0.9);
+}
 section.forecast h3 {
     text-align: center;
     font-family: var(--h-text);
+}
+img.weather-icon{
+    align-items: center;
 }
 
 .article-sec {
