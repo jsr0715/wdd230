@@ -5,11 +5,11 @@ document.addEventListener('DOMContentLoaded', function() {
     let dayOptions = {
         weekday: 'long',
         year: 'numeric',
+        day: 'numeric', 
         month: 'long',
-        day: 'numeric' 
     };
-    let todaysDate = getDate.toLocaleDateString(undefined, dayOptions);
+    let todaysDate = getDate.toLocaleDateString('en-GB', dayOptions);
 
     // update the last modified date and time
     document.querySelector('#last-updated').textContent = 'Last Modified: ' + todaysDate;   
- }, false); 
+}, false); 

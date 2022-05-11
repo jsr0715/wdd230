@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     // update the last modified date and time
-    document.querySelector('#last-updated').textContent = todaysDate;   
+    document.querySelector('#last-updated').textContent = 'Last Modified: ' + todaysDate;   
 }, false); 
 
 // allows the banner to display on Fridays
