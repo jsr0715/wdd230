@@ -162,6 +162,7 @@ th {
     margin: 0 auto;
     grid-template-columns: repeat(5, 1fr);
     max-width: 650px;
+    font-family:var(--h-text);
 }
 .five-day section {
     border: solid 0.5px var(--default-dark);
@@ -184,6 +185,7 @@ th {
 }
 section.forecast h3 {
     text-align: center;
+    font-family: var(--h-text);
 }
 
 .article-sec {
