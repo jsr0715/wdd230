@@ -139,11 +139,7 @@ th {
     object-fit: contain;
 }
 
-.ws-table {
-    font-family: var(--t-text);
-    color: var(--primary-color);
-    margin: 0 auto;
-}
+
 
 .title-data {
     width: 50%;
@@ -158,15 +154,17 @@ th {
 }
 
 .five-day {
-    display: grid;
+    display: flex;
     margin: 0 auto;
     grid-template-columns: repeat(5, 1fr);
     max-width: 650px;
+    margin: 50px;
     font-family:var(--h-text);
 }
 .five-day section {
     border: solid 0.5px var(--default-dark);
     padding: 0;
+    align: center;
 }
 .five-day div {
     margin: 0 auto;
@@ -184,7 +182,7 @@ th {
     display: block;
 }
 .weather-icon {
-    size:50px;
+    size:15px;
     transform: scale(0.9);
 }
 section.forecast h3 {
@@ -193,6 +191,7 @@ section.forecast h3 {
 }
 img.weather-icon{
     align-items: center;
+    width:135px;
 }
 
 .article-sec {

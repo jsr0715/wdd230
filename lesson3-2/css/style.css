@@ -174,6 +174,46 @@ th {
     z-index: 2;
 }
 
+.five-day {
+    display: flex;
+    margin: 0 auto;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 650px;
+    font-family:var(--h-text);
+}
+.five-day section {
+    border: solid 0.5px var(--default-dark);
+    padding: 0;
+}
+.five-day div {
+    margin: 0 auto;
+}
+.five-day h4 {
+    background-color: var(--accent-color1);
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0;
+}
+.five-day span {
+    
+    text-align: center;
+    padding: 0.5rem;
+    display: block;
+}
+.weather-icon {
+    size:50px;
+    transform: scale(0.9);
+}
+section.forecast h3 {
+    text-align: center;
+    font-family: var(--h-text);
+}
+img.weather-icon{
+    align-items: center;
+    width:135px;
+}
+
+
 .article-sec {
     width: 100%;
     padding: 0 20px 0 20px;
@@ -345,6 +385,7 @@ th {
 
 .red {
     color: rgb(245, 90, 90);
+
 }
 
 #modal-name-input {

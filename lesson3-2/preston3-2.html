@@ -60,6 +60,8 @@
                         <source media="(min-width: 550px) and (max-width: 989px)" srcset="./images/hero_medium.jpg">
                         <img src="./images/hero_small.jpg" alt="sample image for lesson 6">
                     </picture>
+                </section>
+                <section>
                 <div class="weather-summary">
                     <h3 class="ws-h3">Weather Summary</h3>
                     <table class="ws-table">
@@ -82,40 +84,37 @@
                 </div>
             </section>
             
-            <section class="forcast">
-                <h2>5 Day Forecast</h2>
-                <table class="forecast-table">
-                    <tr>
-                        <th>Wednesday</th>
-                        <th>Thursday</th>
-                        <th>Friday</th>
-                        <th>Saturday</th>
-                        <th>Sunday</th>
-                    </tr>
-                    <tr>
-                        <td class="forecast-info">
-                            <img src="../weather-icons/day.svg" alt="weather icon" class="w-icon">
-                            <span>55 &#176;F</span>
-                        </td>
-                        <td class="forecast-info">
-                            <img src="../weather-icons/cloudy-day-2.svg" alt="weather icon" class="w-icon">
-                            <span>63 &#176;F</span>
-                        </td>
-                        <td class="forecast-info">
-                            <img src="../weather-icons/rainy-2.svg" alt="weather icon" class="w-icon">
-                            <span>50 &#176;F</span>
-                        </td>
-                        <td class="forecast-info">
-                            <img src="../weather-icons/thunder.svg" alt="weather icon" class="w-icon">
-                            <span>65 &#176;F</span>
-                        </td>
-                        <td class="forecast-info">
-                            <img src="../weather-icons/cloudy-day-3.svg" alt="weather icon" class="w-icon">
-                            <span>58 &#176;F</span>
-                        </td>
-                    </tr>
-                </table>
+            <section class="forecast">
+                <h3>5 Day Forecast</h3>
+                <div class="five-day">
+                    <section>
+                        <h4 id="mon">Monday</h4>
+                        <img class="weather-icon" src="./images/sunny.jpg" alt="icon">
+                        <span>68&deg;F</span>
+                    </section>
+                    <section>
+                        <h4 id="tue">Tuesday</h4>
+                        <img class="weather-icon" src="./images/semi-sunny.jpg" alt="icon">
+                        <span>70&deg;F</span>
+                    </section>
+                    <section>
+                        <h4 id="wed">Wednesday</h4>
+                        <img class="weather-icon" src="./images/sunny.jpg" alt="icon">
+                        <span>72&deg;F</span>
+                    </section>
+                    <section>
+                        <h4 id="thurs">Thursday</h4>
+                        <img class="weather-icon" src="./images/cloudy.jpg" alt="icon">
+                        <span>75&deg;F</span>
+                    </section>
+                    <section>
+                        <h4 id="fri">Friday</h4>
+                        <img class="weather-icon" src="./images/rain.jpg" alt="icon">
+                        <span>67&deg;F</span>
+                    </section>
+                </div>
             </section>
+
 
             <section class="article-sec">
                 <div class="quill">

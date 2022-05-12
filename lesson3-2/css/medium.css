@@ -36,12 +36,6 @@ th {
 
 }
 
-.forecast-table {
-    margin: 0 auto;
-    margin-top: 8px;
-    width: 500px;
-    border: 1px solid var(--accent-color2);
-}
 
 .forecast-info span {
     display: block;
