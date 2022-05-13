@@ -389,6 +389,10 @@ th {
 .red {
     color: rgb(245, 90, 90);
 }
+section.gallery figure :hover {
+    transform: translate(-6px, -6px);
+    box-shadow: 6px 6px 12px var(--accent-color2), inset 0 0 3px var(--accent-color3);
+}
 
 #modal-name-input {
     padding: 8px;
