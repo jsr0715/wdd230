@@ -10,33 +10,16 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/small.css">
-        
+
         <link rel="stylesheet" href="./css/medium.css">
         <link rel="stylesheet" href="./css/large.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Source+Sans+Pro&display=swap" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        
+       
+       
     </head>
     <body>
-        <div class="modal hidden">
-            <div class="modal-inner">
-                <div class="close-modal">
-                    <i class="fas fa-times"></i>
-                </div>
-                <div class="modal-content">
-                    <div class="modal-title">
-                        Personalize Your Experience
-                    </div>
-                    <div class="description-text">
-                        Please enter your name for a more personal experience.
-                    </div>
-                    <div id="modal-feedback"></div>
-                    <label for="modal-name-input" class="hidden">User name</label>
-                    <input type="text" id="modal-name-input">
-                    <button id="modal-name-submit" onclick="addNameLocal()">Submit</button>
-                </div>
-                <div class="close-modal" id="modal-close-text">close</div>
-            </div>
-        </div>
 
         <div class="banner hidden">
             Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
@@ -58,23 +41,57 @@
             <ul class="full-width navigation">
                 <li class="nav-li"><a href="#" onclick="toggleMenu()">
                     <span class="button">&#9776; MENU</span></a></li>
-                <li class="nav-li"><a href="#">Home</a></li>
-                <li class="nav-li active"><a href="#">Preston</a></li>
+                <li class="nav-li active"><a href="#">Home</a></li>
+                <li class="nav-li"><a href="../lesson3/preston-3.html">Preston</a></li>
                 <li class="nav-li"><a href="#">Soda Springs</a></li>
                 <li class="nav-li"><a href="#">Fish Haven</a></li>
-                <li class="nav-li"><a href="#">Storm Center</a></li>
-                <li class="nav-li"><a href="#">Gallery</a></li>
+                <li class="nav-li"><a href="../lesson4-2/stormcenter.html">Storm Center</a></li>
+                <li class="nav-li"><a href="../lesson4/gallery-7.html">Gallery</a></li>
             </ul>
         </nav>
         <main class="full-width">
-            <h2 class="page-title">Storm Center</h2>
+            <h2 class="page-title">Preston Idaho</h2>
+            <section class="hero-img">
+                <picture>
+                    
+                    <img src="./images/heroimg.png" alt="sample hero image">
+                    </picture>
+                </section>
+    
+                <section class="home-towns"></section>
 
-            <div class="thank-you-message">
-                Thank you for submitting the information!
-            </div>
-
+  
+            <section class="address-sec">
+                <div class="map">
+                    <iframe src="https://maps.google.com/maps?q=preston%20idaho&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="contact">
+                    <div class="contact-inner">
+                        <div class="address">
+                            <h2>Weather-Me</h2>
+                            <p><i class="fas fa-map-marker-alt"></i> South 2nd West</p>
+                            <p>Preston, Idaho</p>
+                        </div>
+                        <br>
+                        <div class=phone-email>
+                            <i class="fas fa-phone-square-alt"></i> (208) 000-0000
+                            <br>
+                            <i class="fas fa-envelope-open-text"></i> weather-info@weather.com
+                        </div>
+                        <br>
+                        <div class="social">
+                            <a href="https://www.googleplus.com/" target="_blank">
+                               <i class="fa fa-google-plus"></i></a>
+                            <a href="https://facebook.com/" target="_blank">
+                               <i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com/" target="_blank">
+                               <i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
-        
         <footer>
             <div class="footer">
                 © <span id="current-year"></span> | Surim Jeon | South Korea | <a target="_blank" href="https://www.byui.edu/online">BYUI Online Learning</a> <br>
@@ -83,8 +100,8 @@
                 <script src="./scripts/lastUpdated.js"></script>
                 <script src="./scripts/script.js"></script>
                 <script src="./scripts/wind.js"></script>
-                <script src="./scripts/stormcenter.js"></script>
-               
+                <script src="./scripts/towndata.js"></script>
+                
             </div>
         </footer>
     </body>
