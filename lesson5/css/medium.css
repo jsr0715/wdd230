@@ -80,3 +80,12 @@ th {
     padding: 0;
     filter: drop-shadow(0 0 0 #000);
 }
+
+#storm-r-value {
+    width: 40px;
+}
+
+#storm-r {
+    width: 450px;
+}
+
