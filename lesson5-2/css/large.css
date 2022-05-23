@@ -45,12 +45,12 @@
     .navigation li {
         display: block;
     }
+
     .home-towns {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
-   
 
     .town-div {
         flex-direction: column;
