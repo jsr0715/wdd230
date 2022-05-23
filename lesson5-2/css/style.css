@@ -151,6 +151,14 @@ th {
     width: 50%;
     padding-left: 5px;
     color: white;
+    font-family: var(--t-text);
+}
+.ws-h3 {
+    border-bottom: 1px solid var(--bg-2);
+   font-family: var(--t-text);
+    padding: 6px;
+    text-align: center;
+    margin-bottom: 4px;
 }
 
 .weather-summary {
@@ -159,6 +167,7 @@ th {
     padding: 10px;
     background-color: var(--accent-blue-2);
     z-index: 2;
+    font-family: var(--t-text);
 }
 
 
