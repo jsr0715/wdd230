@@ -115,6 +115,115 @@ th {
     max-width: 760px;
     margin: 0 auto;
 }
+.full-width-gallery {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.gallery-image {
+    margin: 5px;
+    filter: drop-shadow(0 0 0.1rem #000);
+    background-color: #fff;
+}
+
+.gallery-cap {
+    background-color: #fff;
+    text-align: center;
+    padding: 8px;
+}
+
+.gallery-footer {
+    margin-top: 40px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.gallery-image picture  img {
+    width: 300px;
+    height: 300px;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+.input-section {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    font-family: var(--t-text);
+}
+
+.input-section input {
+    padding: 4px;
+}
+
+.input-section label {
+    margin-bottom: 4px;
+}
+
+.storm-form {
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: var(--accent-color3);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.submit {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: var(--accent-color1);
+    color: black;
+}
+
+.submit-div {
+    max-width: 180px;
+    margin: 0 auto;
+}
+
+.fs-sec {
+    margin: 10px;
+    padding: 12px;
+    border: 1px dotted var(--accent-color1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.thank-you-message {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    background-color: var(--accent-color3);
+    padding: 34px;
+    line-height: 1.4em;
+    font-family: var(--t-text);
+}
+
+#storm-r-value {
+    text-align: center;
+    font-weight: 800;
+    width: 100%;
+    padding-top: 12px;
+}
+
+#storm-r-label {
+    margin-bottom: 8px;
+}
 
 .banner {
     width: 100%;
@@ -126,6 +235,16 @@ th {
     letter-spacing: 0.15em;
 }
 
+#storm-r-value {
+    text-align: center;
+    font-weight: 800;
+    width: 100%;
+    padding-top: 12px;
+}
+
+#storm-r-label {
+    margin-bottom: 8px;
+}
 .forcast {
     display: none;
 }
@@ -168,6 +287,29 @@ th {
     background-color: var(--accent-blue-2);
     z-index: 2;
     font-family: var(--t-text);
+}
+.events {
+    display: block;
+    max-width: 410px;
+    margin: 0 auto;
+}
+
+.events h2 {
+    text-align: center;
+    font-family: var(--h-text);
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.events .event-list p {
+    font-family: var(--t-text);
+    padding: 15px;
+    border-left: 2px solid var(--accent-color2);
+    border-right: 2px solid var(--accent-color2);
+}
+
+.events .event-list p i {
+    padding-right: 8px;
 }
 
 
