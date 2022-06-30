@@ -2,7 +2,7 @@ function toggleMenu() {
     document.getElementsByClassName('navigation')[0].classList.toggle('responsive');
 }
 
-
+//lazy loading
 const images = document.querySelectorAll("img[data-src]");
 
 const imgOptions = {
@@ -18,7 +18,7 @@ function preloadImage(img) {
     img.src = src;
 }
 
-// Lazy Loading
+
 const imgObserver = new IntersectionObserver((entries, imgObserver) => {
     entries.forEach(entry => {
         if (!entry.isIntersecting){

@@ -144,9 +144,10 @@ th {
     justify-content: space-evenly;
 }
 
-.gallery-image picture  img {
+.gallery-image picture img {
     width: 300px;
     height: 300px;
+  
 }
 
 @keyframes fadeIn {
