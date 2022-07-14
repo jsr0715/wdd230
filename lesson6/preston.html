@@ -9,10 +9,9 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
         <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="./css/medium.css">
         <link rel="stylesheet" href="./css/small.css">
-        <link rel="stylesheet" href="./css/normalize.css">
-       
+
+        <link rel="stylesheet" href="./css/medium.css">
         <link rel="stylesheet" href="./css/large.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Source+Sans+Pro&display=swap" rel="stylesheet">
@@ -43,11 +42,11 @@
                 <li class="nav-li"><a href="#" onclick="toggleMenu()">
                     <span class="button">&#9776; MENU</span></a></li>
                     <li class="nav-li"><a href="./home.html">Home</a></li>
-                    <li class="nav-li active"><a href="#">Preston</a></li>
-                    <li class="nav-li"><a href="./sodaSprings.html">Soda Springs</a></li>
-                    <li class="nav-li"><a href="./fishHaven.html">Fish Haven</a></li>
-                    <li class="nav-li"><a href="./stormcenter.html">Storm Center</a></li>
-                    <li class="nav-li"><a href="./gallery.html">Gallery</a></li>
+                <li class="nav-li"><a href="./preston.html">Preston</a></li>
+                <li class="nav-li"><a href="./sodaSprings.html">Soda Springs</a></li>
+                <li class="nav-li active"><a href="#">Fish Haven</a></li>
+                <li class="nav-li"><a href="./stormcenter.html">Storm Center</a></li>
+                <li class="nav-li"><a href="./gallery.html">Gallery</a></li>
             </ul>
         </nav>
         <main class="full-width">
@@ -57,9 +56,75 @@
                     
                     <img src="./images/heroimg.png" alt="sample hero image">
                     </picture>
+                    <div class="weather-summary">
+                        <h3 class="ws-h3">Weather Summary</h3>
+                        <table class="ws-table">
+                            <tr>
+                                <td class="title-data">Currently: </td><td class="sum-data"><span id="d-current"></span></td>
+                            </tr>
+                            <tr>
+                                <td class="title-data">Temp: </td><td class="sum-data"><span id="d-temp"></span> &#176;F</td>
+                            </tr>
+                            <tr>
+                                <td class="title-data">Wind Chill: </td><td class="sum-data"><span id="d-wind-c"></span> &#176;F</td>
+                            </tr>
+                            <tr>
+                                <td class="title-data">Humidity: </td><td class="sum-data"><span id="d-humid"></span>%</td>
+                            </tr>
+                            <tr>
+                                <td class="title-data">Wind Speed: </td><td class="sum-data"><span id="d-wind-s"></span> mph</td>
+                            </tr>
+                        </table>
+                    </div>
                 </section>
-    
-                <section class="home-towns"></section>
+
+                <section class="forcast">
+                    <h2>5 Day Forecast</h2>
+                    <table class="forecast-table">
+                        <tr id="day-output"><td class="hidden"></td></tr>
+                        <tr id="weather-output"><td class="hidden"></td></tr>
+                    </table>
+                </section>
+                <section class="events">
+                    <h2>Upcoming Events</h2>
+                    <div class="event-list"></div>
+                </section>
+
+            <section class="article-sec">
+                <div class="quill">
+                    <div class="quill-q"><i class="fas fa-feather-alt"></i></div>
+                    <div class="quill-q"><i class="fas fa-feather-alt"></i></div>
+                    <div class="quill-q"><i class="fas fa-feather-alt"></i></div>
+                    <div class="quill-hide"><i class="fas fa-feather-alt"></i></div>
+                    <div class="quill-hide"><i class="fas fa-feather-alt"></i></div>
+                </div>
+                <picture>
+  
+                    <img src="./images/prestonarticle.jpg" alt="article image" class="article-img">
+                </picture>
+                
+                <h2>Fish bluegill, bass, perch and trout without limits at two local reservoirs
+                </h2>
+                <h6>By Jerry Painter</h6>
+               <p> Idaho Fish and Game has issued fish salvage orders for two Southeast Idaho reservoirs this month after irrigation demands have drained them to the point of no longer supporting fish.</p>
+
+                <p>Condie Reservoir, about 6 miles north of Preston, and Winder Reservoir, about 4 miles north of Preston, are expected to be empty sometime in the next few weeks. While the reservoirs often contain some water at the end of the irrigation season, the combination of low snowpack and a dry spring and summer, has both reservoirs being emptied.</p>
+
+                <p>“The last salvage order for Winder was in 2007, and I am not aware of a salvage order on Condie since I got here in 2005,” said Jennifer Jackson, regional communications manager for Fish and Game. “It has been a really long time since those reservoirs have seen a salvage order, and this is definitely being driven by drought conditions this summer.” </p>
+                <p>She continued, “Condie and Winder Reservoirs will become extremely low over the next several weeks as irrigation demands continue to be met. The fish at both reservoirs will not survive when water levels become unsuitable. Orders of salvage are therefore warranted to maximize public use of these fish.” </p>
+
+                <p>The fish salvage order allows fish to be taken by any method except the “use of firearms, explosives, chemicals or electric current.” Size, bag limits and possession limits are suspended, but a valid Idaho fishing license is still required.</p>
+
+                <p>Condie and Winder reservoirs have bluegill, bass, perch and trout in them. About 1,680 catchable size rainbow trout were planted in Winder this past spring.</p>
+                
+                <div class="quill">
+                    <div class="quill-q"><i class="fas fa-feather-alt"></i></div>
+                    <div class="quill-q"><i class="fas fa-feather-alt"></i></div>
+                    <div class="quill-q"><i class="fas fa-feather-alt"></i></div>
+                    <div class="quill-hide"><i class="fas fa-feather-alt"></i></div>
+                    <div class="quill-hide"><i class="fas fa-feather-alt"></i></div>
+                </div>
+            </section>
 
   
             <section class="address-sec">
@@ -101,8 +166,9 @@
                 <script src="./scripts/lastUpdated.js"></script>
                 <script src="./scripts/script.js"></script>
                 <script src="./scripts/wind.js"></script>
-                <script src="./scripts/towndata.js"></script>
-                
+                <script src="./scripts/prestonWeatherApi.js"></script>
+                <script src="./scripts/upcomingEvents.js"></script>
+                <script src="./scripts/stormcenter.js"></script>
             </div>
         </footer>
     </body>

@@ -297,15 +297,15 @@ th {
 .events h2 {
     text-align: center;
     font-family: var(--h-text);
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 12px;
 }
 
 .events .event-list p {
     font-family: var(--t-text);
     padding: 15px;
-    border-left: 2px solid var(--accent-color2);
-    border-right: 2px solid var(--accent-color2);
+    border-left: solid var(--accent-color2);
+    border-right: solid var(--accent-color2);
 }
 
 .events .event-list p i {

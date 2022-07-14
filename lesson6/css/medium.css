@@ -41,6 +41,7 @@ th {
     margin-top: 8px;
     width: 500px;
     border: 1px solid var(--accent-color2);
+    table-layout: fixed;
 }
 
 .forecast-info span {
