@@ -1,5 +1,5 @@
 
-const requestURL = "https://belchaparro.github.io/scoots/data/scoots-data.json";
+const requestURL = "https://jsr0715.github.io/wdd230/FinalProject/data/scoots-data.json";
 fetch(requestURL)
     .then(function (response) {
         return response.json();
